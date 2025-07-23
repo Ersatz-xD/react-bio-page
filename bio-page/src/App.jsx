@@ -1,15 +1,12 @@
 // import { useState } from 'react'
 import './App.css'
+import BioPage from './components/BioPage'
 
-function App() {
-  //const [count, setCount] = useState(0)
-
+export const App = () => {
   return (
-    <>
-      <div>
-        <h1>Bio Page</h1>
-      </div>
-    </>
+    <div>
+      <BioPage />
+    </div>
   )
 }
 
