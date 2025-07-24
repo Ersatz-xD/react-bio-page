@@ -7,7 +7,7 @@
 
 ## 🌐 Live Demo
 
-View it here: [https://<your-username>.github.io/<repo-name>/](https://<your-username>.github.io/<repo-name>/)
+View it here: [https://ersatz-xd.github.io/react-bio-page/](https://ersatz-xd.github.io/react-bio-page/)
 
 ---
 
