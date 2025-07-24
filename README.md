@@ -96,8 +96,6 @@ npm run deploy
 
 Feel free to connect or give feedback!
 
-**Name:** Ayaan Ahmed Khan
-**University:** COMSATS University Islamabad
-**Interests:** Full-Stack Development, AI/ML, System Design
-**Email/LinkedIn/Portfolio:** (add links if you'd like)
+- [GitHub](https://github.com/Ersatz-xD)
+- [LinkedIn](https://www.linkedin.com/in/ayaan-ahmed-khan-448600351)
 
