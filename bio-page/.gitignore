@@ -26,8 +26,7 @@ dist-ssr
 # dependencies
 node_modules/
 
-# production
-dist/
+
 
 # misc
 .env
