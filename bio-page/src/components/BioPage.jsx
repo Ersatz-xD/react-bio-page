@@ -1,7 +1,8 @@
-import React from "react";
 import "./BioPage.css";
 import pfp from "../assets/pfp.jpeg";
 import banner from "../assets/banner.jpg";
+import LinkedInBtn from "./LinkedInBtn";
+
 
 const BioPage = () => {
   return (
@@ -23,26 +24,44 @@ const BioPage = () => {
       </div>
 
       <div className="about-me">
-        <h3>About Me</h3>
+        <h2>About Me</h2>
         <p>
           Passionate Software Engineer & AI Enthusiast | Exploring the Future of
           Tech
         </p>
         <p>
-          Computer Science student at COMSATS University Islamabad with
-          expertise in Java, Python, C++, and MySQL. Passionate about Web
-          Development, Software Engineering, AI, and Machine Learning, with a
-          strong foundation in problem-solving and system design.
+          I'm a dedicated Computer Science student at COMSATS University
+          Islamabad, driven by curiosity and a desire to innovate in the world
+          of technology. My technical toolkit includes Java, Python, C++, and
+          MySQL, which I’ve applied to build projects ranging from basic
+          applications to backend systems. With a growing focus on Web
+          Development, Software Engineering, and Artificial Intelligence, I'm
+          constantly exploring how technology can solve real-world problems.
         </p>
         <p>
+          Beyond the classroom, I actively contribute to university societies,
+          engaging in teamwork, leadership, and creative problem-solving. I’ve
+          helped organize tech events, participated in coding competitions, and
+          attended industry bootcamps to sharpen both my technical and soft
+          skills.
+        </p>
+
+        <div>
+          <h3>Current Focus Areas</h3>
           <ul>
-            <li>Active member of university societies.</li>
             <li>
-              Organized tech events and attended bootcamps for professional
-              growth.
+              Enhancing my skills in Full-Stack Development using tools like
+              React, Node.js, and MongoDB
+            </li>
+            <li>
+              Exploring AI/ML frameworks and applying them in mini-projects
+            </li>
+            <li>
+              Gaining industry experience through internships and freelance
+              collaborations
             </li>
           </ul>
-        </p>
+        </div>
 
         <p>
           Goal: To secure top-tier internships and advance in Full-Stack
@@ -54,6 +73,11 @@ const BioPage = () => {
           impactful! 🚀
         </p>
       </div>
+
+      <div className="linkedIn-btn-container">
+        <LinkedInBtn />
+      </div>
+
     </div>
   );
 };
