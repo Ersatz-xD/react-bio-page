@@ -7,3 +7,26 @@
   border-radius: 8px;
   background-color: #f9f9f9;
 }
+
+.pfp-slot {
+  width: 120px;
+  height: 120px;
+  border: #f9f9f9 2px solid;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  position: relative;
+  top: -170px; 
+}
+
+.banner-slot {
+  width: 700px;
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
