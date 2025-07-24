@@ -1,11 +1,13 @@
 import React from 'react'
 import './BioPage.css'
+import pfp from '../assets/pfp.jpeg'
 
 const BioPage = () => {
   return (
     <div className='main-box'>
-      <h1>Ayaan</h1>
-      <p>Welcome to my bio page!</p>
+      <div className='pfp-slot'>
+        <img src={pfp} alt="pfp" />
+      </div>
     </div>
   )
 }
